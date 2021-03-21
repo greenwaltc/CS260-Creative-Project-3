@@ -1,7 +1,8 @@
 <template>
   <div class="container">
+    <h1>Search for a food recipe!</h1>
     <form class="pure-form">
-          <i class="fas fa-search"></i><input v-model="searchString" />
+          <i class="fas fa-search"></i><input v-model="searchString" placeholder="Example: 'chicken enchiladas'"/>
         </form>
     <button type='button' @click="searchClicked">SEARCH</button>
     <RecipeList :recipes="recipes"/>

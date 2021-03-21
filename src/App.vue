@@ -5,12 +5,10 @@
       <router-link to="/search">Search Recipes</router-link> |
       <router-link to="/saved">Saved Recipes</router-link>
     </div>
-    <router-view/>
+    <router-view />
 
     <div class="footer">
-      <a
-        href="https://github.com/BYU-CS-260-Winter-2021/lab-3b-grocery-store-greenwaltc"
-      >
+      <a href="https://github.com/greenwaltc/CS260-Creative-Project-3">
         <h1>Github Classroom</h1>
       </a>
     </div>
